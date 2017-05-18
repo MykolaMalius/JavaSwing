@@ -18,6 +18,7 @@ import java.util.Calendar;
 import java.awt.event.ActionEvent;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
+import javax.swing.ImageIcon;
 
 public class TicketSystem {
 
@@ -65,7 +66,7 @@ public class TicketSystem {
 	 */
 	private void initialize() {
 		frame = new JFrame();
-		frame.setBounds(100, 100, 714, 518);
+		frame.setBounds(100, 100, 700, 500);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.getContentPane().setLayout(null);
 		
@@ -182,6 +183,1095 @@ public class TicketSystem {
 				
 			}
 			
+if(rdbtnBussines.isSelected() && rdbtnSingleTicket.isSelected() && rdbtnChild.isSelected() && BoxChoose.getSelectedItem().equals("New York")){
+				
+				totalCost = (tax * miles15)/70;
+				String tTax = String.format("$%.2f", totalCost);
+				txtTax.setText(tTax);
+				String subTotal = String.format("$%.2f", miles10);
+				txtSub.setText(subTotal);
+				String total = String.format("$%.2f", miles10 + totalCost);
+				txtTotal.setText(total);
+				txtPrice.setText(total);
+				txtClass1.setText("Bussines");
+				txtTicket1.setText("Onew way");
+				txtAdult1.setText("One");
+				txtChild1.setText("-----");
+				
+				
+			}
+			
+			
+			
+if(rdbtnBussines.isSelected() && rdbtnReturnTicket.isSelected() && rdbtnAdult.isSelected() && BoxChoose.getSelectedItem().equals("New York")){
+				
+				totalCost = (tax * miles15)/120;
+				String tTax = String.format("$%.2f", totalCost);
+				txtTax.setText(tTax);
+				String subTotal = String.format("$%.2f", miles10);
+				txtSub.setText(subTotal);
+				String total = String.format("$%.2f", miles10 + totalCost);
+				txtTotal.setText(total);
+				txtPrice.setText(total);
+				txtClass1.setText("Bussines");
+				txtTicket1.setText("Onew way");
+				txtAdult1.setText("One");
+				txtChild1.setText("-----");
+				
+				
+			}
+			
+
+if(rdbtnBussines.isSelected() && rdbtnReturnTicket.isSelected() && rdbtnChild.isSelected() && BoxChoose.getSelectedItem().equals("New York")){
+	
+	totalCost = (tax * miles15)/80;
+	String tTax = String.format("$%.2f", totalCost);
+	txtTax.setText(tTax);
+	String subTotal = String.format("$%.2f", miles10);
+	txtSub.setText(subTotal);
+	String total = String.format("$%.2f", miles10 + totalCost);
+	txtTotal.setText(total);
+	txtPrice.setText(total);
+	txtClass1.setText("Bussines");
+	txtTicket1.setText("Onew way");
+	txtAdult1.setText("One");
+	txtChild1.setText("-----");
+	
+}
+///////////////////////
+if(rdbtnBussines.isSelected() && rdbtnSingleTicket.isSelected() && rdbtnAdult.isSelected() && BoxChoose.getSelectedItem().equals("Washington")){
+	
+	totalCost = (tax * miles15)/100;
+	String tTax = String.format("$%.2f", totalCost);
+	txtTax.setText(tTax);
+	String subTotal = String.format("$%.2f", miles10);
+	txtSub.setText(subTotal);
+	String total = String.format("$%.2f", miles10 + totalCost);
+	txtTotal.setText(total);
+	txtPrice.setText(total);
+	txtClass1.setText("Bussines");
+	txtTicket1.setText("Onew way");
+	txtAdult1.setText("One");
+	txtChild1.setText("-----");
+	
+	
+}
+
+if(rdbtnBussines.isSelected() && rdbtnSingleTicket.isSelected() && rdbtnChild.isSelected() && BoxChoose.getSelectedItem().equals("Washington")){
+	
+	totalCost = (tax * miles15)/70;
+	String tTax = String.format("$%.2f", totalCost);
+	txtTax.setText(tTax);
+	String subTotal = String.format("$%.2f", miles10);
+	txtSub.setText(subTotal);
+	String total = String.format("$%.2f", miles10 + totalCost);
+	txtTotal.setText(total);
+	txtPrice.setText(total);
+	txtClass1.setText("Bussines");
+	txtTicket1.setText("Onew way");
+	txtAdult1.setText("One");
+	txtChild1.setText("-----");
+	
+	
+}
+
+
+
+if(rdbtnBussines.isSelected() && rdbtnReturnTicket.isSelected() && rdbtnAdult.isSelected() && BoxChoose.getSelectedItem().equals("Washington")){
+	
+	totalCost = (tax * miles15)/120;
+	String tTax = String.format("$%.2f", totalCost);
+	txtTax.setText(tTax);
+	String subTotal = String.format("$%.2f", miles10);
+	txtSub.setText(subTotal);
+	String total = String.format("$%.2f", miles10 + totalCost);
+	txtTotal.setText(total);
+	txtPrice.setText(total);
+	txtClass1.setText("Bussines");
+	txtTicket1.setText("Onew way");
+	txtAdult1.setText("One");
+	txtChild1.setText("-----");
+	
+	
+}
+
+
+if(rdbtnBussines.isSelected() && rdbtnReturnTicket.isSelected() && rdbtnChild.isSelected() && BoxChoose.getSelectedItem().equals("Washington")){
+
+totalCost = (tax * miles15)/80;
+String tTax = String.format("$%.2f", totalCost);
+txtTax.setText(tTax);
+String subTotal = String.format("$%.2f", miles10);
+txtSub.setText(subTotal);
+String total = String.format("$%.2f", miles10 + totalCost);
+txtTotal.setText(total);
+txtPrice.setText(total);
+txtClass1.setText("Bussines");
+txtTicket1.setText("Onew way");
+txtAdult1.setText("One");
+txtChild1.setText("-----");
+
+}
+////
+if(rdbtnBussines.isSelected() && rdbtnSingleTicket.isSelected() && rdbtnAdult.isSelected() && BoxChoose.getSelectedItem().equals("Boston")){
+	
+	totalCost = (tax * miles15)/100;
+	String tTax = String.format("$%.2f", totalCost);
+	txtTax.setText(tTax);
+	String subTotal = String.format("$%.2f", miles10);
+	txtSub.setText(subTotal);
+	String total = String.format("$%.2f", miles10 + totalCost);
+	txtTotal.setText(total);
+	txtPrice.setText(total);
+	txtClass1.setText("Bussines");
+	txtTicket1.setText("Onew way");
+	txtAdult1.setText("One");
+	txtChild1.setText("-----");
+	
+	
+}
+
+if(rdbtnBussines.isSelected() && rdbtnSingleTicket.isSelected() && rdbtnChild.isSelected() && BoxChoose.getSelectedItem().equals("Boston")){
+	
+	totalCost = (tax * miles15)/70;
+	String tTax = String.format("$%.2f", totalCost);
+	txtTax.setText(tTax);
+	String subTotal = String.format("$%.2f", miles10);
+	txtSub.setText(subTotal);
+	String total = String.format("$%.2f", miles10 + totalCost);
+	txtTotal.setText(total);
+	txtPrice.setText(total);
+	txtClass1.setText("Bussines");
+	txtTicket1.setText("Onew way");
+	txtAdult1.setText("One");
+	txtChild1.setText("-----");
+	
+	
+}
+
+
+
+if(rdbtnBussines.isSelected() && rdbtnReturnTicket.isSelected() && rdbtnAdult.isSelected() && BoxChoose.getSelectedItem().equals("Boston")){
+	
+	totalCost = (tax * miles15)/120;
+	String tTax = String.format("$%.2f", totalCost);
+	txtTax.setText(tTax);
+	String subTotal = String.format("$%.2f", miles10);
+	txtSub.setText(subTotal);
+	String total = String.format("$%.2f", miles10 + totalCost);
+	txtTotal.setText(total);
+	txtPrice.setText(total);
+	txtClass1.setText("Bussines");
+	txtTicket1.setText("Onew way");
+	txtAdult1.setText("One");
+	txtChild1.setText("-----");
+	
+	
+}
+
+
+if(rdbtnBussines.isSelected() && rdbtnReturnTicket.isSelected() && rdbtnChild.isSelected() && BoxChoose.getSelectedItem().equals("Boston")){
+
+totalCost = (tax * miles15)/80;
+String tTax = String.format("$%.2f", totalCost);
+txtTax.setText(tTax);
+String subTotal = String.format("$%.2f", miles10);
+txtSub.setText(subTotal);
+String total = String.format("$%.2f", miles10 + totalCost);
+txtTotal.setText(total);
+txtPrice.setText(total);
+txtClass1.setText("Bussines");
+txtTicket1.setText("Onew way");
+txtAdult1.setText("One");
+txtChild1.setText("-----");
+
+}
+///
+if(rdbtnBussines.isSelected() && rdbtnSingleTicket.isSelected() && rdbtnAdult.isSelected() && BoxChoose.getSelectedItem().equals("Miami")){
+	
+	totalCost = (tax * miles15)/100;
+	String tTax = String.format("$%.2f", totalCost);
+	txtTax.setText(tTax);
+	String subTotal = String.format("$%.2f", miles10);
+	txtSub.setText(subTotal);
+	String total = String.format("$%.2f", miles10 + totalCost);
+	txtTotal.setText(total);
+	txtPrice.setText(total);
+	txtClass1.setText("Bussines");
+	txtTicket1.setText("Onew way");
+	txtAdult1.setText("One");
+	txtChild1.setText("-----");
+	
+	
+}
+
+if(rdbtnBussines.isSelected() && rdbtnSingleTicket.isSelected() && rdbtnChild.isSelected() && BoxChoose.getSelectedItem().equals("Miami")){
+	
+	totalCost = (tax * miles15)/70;
+	String tTax = String.format("$%.2f", totalCost);
+	txtTax.setText(tTax);
+	String subTotal = String.format("$%.2f", miles10);
+	txtSub.setText(subTotal);
+	String total = String.format("$%.2f", miles10 + totalCost);
+	txtTotal.setText(total);
+	txtPrice.setText(total);
+	txtClass1.setText("Bussines");
+	txtTicket1.setText("Onew way");
+	txtAdult1.setText("One");
+	txtChild1.setText("-----");
+	
+	
+}
+
+
+
+if(rdbtnBussines.isSelected() && rdbtnReturnTicket.isSelected() && rdbtnAdult.isSelected() && BoxChoose.getSelectedItem().equals("Miami")){
+	
+	totalCost = (tax * miles15)/120;
+	String tTax = String.format("$%.2f", totalCost);
+	txtTax.setText(tTax);
+	String subTotal = String.format("$%.2f", miles10);
+	txtSub.setText(subTotal);
+	String total = String.format("$%.2f", miles10 + totalCost);
+	txtTotal.setText(total);
+	txtPrice.setText(total);
+	txtClass1.setText("Bussines");
+	txtTicket1.setText("Onew way");
+	txtAdult1.setText("One");
+	txtChild1.setText("-----");
+	
+	
+}
+
+
+if(rdbtnBussines.isSelected() && rdbtnReturnTicket.isSelected() && rdbtnChild.isSelected() && BoxChoose.getSelectedItem().equals("Miami")){
+
+totalCost = (tax * miles15)/80;
+String tTax = String.format("$%.2f", totalCost);
+txtTax.setText(tTax);
+String subTotal = String.format("$%.2f", miles10);
+txtSub.setText(subTotal);
+String total = String.format("$%.2f", miles10 + totalCost);
+txtTotal.setText(total);
+txtPrice.setText(total);
+txtClass1.setText("Bussines");
+txtTicket1.setText("Onew way");
+txtAdult1.setText("One");
+txtChild1.setText("-----");
+
+}
+if(rdbtnBussines.isSelected() && rdbtnSingleTicket.isSelected() && rdbtnAdult.isSelected() && BoxChoose.getSelectedItem().equals("Miami")){
+	
+	totalCost = (tax * miles15)/100;
+	String tTax = String.format("$%.2f", totalCost);
+	txtTax.setText(tTax);
+	String subTotal = String.format("$%.2f", miles10);
+	txtSub.setText(subTotal);
+	String total = String.format("$%.2f", miles10 + totalCost);
+	txtTotal.setText(total);
+	txtPrice.setText(total);
+	txtClass1.setText("Bussines");
+	txtTicket1.setText("Onew way");
+	txtAdult1.setText("One");
+	txtChild1.setText("-----");
+	
+	
+}
+
+if(rdbtnBussines.isSelected() && rdbtnSingleTicket.isSelected() && rdbtnChild.isSelected() && BoxChoose.getSelectedItem().equals("Miami")){
+	
+	totalCost = (tax * miles15)/70;
+	String tTax = String.format("$%.2f", totalCost);
+	txtTax.setText(tTax);
+	String subTotal = String.format("$%.2f", miles10);
+	txtSub.setText(subTotal);
+	String total = String.format("$%.2f", miles10 + totalCost);
+	txtTotal.setText(total);
+	txtPrice.setText(total);
+	txtClass1.setText("Bussines");
+	txtTicket1.setText("Onew way");
+	txtAdult1.setText("One");
+	txtChild1.setText("-----");
+	
+	
+}
+
+
+
+if(rdbtnBussines.isSelected() && rdbtnReturnTicket.isSelected() && rdbtnAdult.isSelected() && BoxChoose.getSelectedItem().equals("Miami")){
+	
+	totalCost = (tax * miles15)/120;
+	String tTax = String.format("$%.2f", totalCost);
+	txtTax.setText(tTax);
+	String subTotal = String.format("$%.2f", miles10);
+	txtSub.setText(subTotal);
+	String total = String.format("$%.2f", miles10 + totalCost);
+	txtTotal.setText(total);
+	txtPrice.setText(total);
+	txtClass1.setText("Bussines");
+	txtTicket1.setText("Onew way");
+	txtAdult1.setText("One");
+	txtChild1.setText("-----");
+	
+	
+}
+
+
+if(rdbtnBussines.isSelected() && rdbtnReturnTicket.isSelected() && rdbtnChild.isSelected() && BoxChoose.getSelectedItem().equals("Miami")){
+
+totalCost = (tax * miles15)/80;
+String tTax = String.format("$%.2f", totalCost);
+txtTax.setText(tTax);
+String subTotal = String.format("$%.2f", miles10);
+txtSub.setText(subTotal);
+String total = String.format("$%.2f", miles10 + totalCost);
+txtTotal.setText(total);
+txtPrice.setText(total);
+txtClass1.setText("Bussines");
+txtTicket1.setText("Onew way");
+txtAdult1.setText("One");
+txtChild1.setText("-----");
+
+}
+//
+if(rdbtnStandard.isSelected() && rdbtnSingleTicket.isSelected() && rdbtnAdult.isSelected() && BoxChoose.getSelectedItem().equals("New York")){
+	
+	totalCost = (tax * miles15)/100;
+	String tTax = String.format("$%.2f", totalCost);
+	txtTax.setText(tTax);
+	String subTotal = String.format("$%.2f", miles10);
+	txtSub.setText(subTotal);
+	String total = String.format("$%.2f", miles10 + totalCost);
+	txtTotal.setText(total);
+	txtPrice.setText(total);
+	txtClass1.setText("Bussines");
+	txtTicket1.setText("Onew way");
+	txtAdult1.setText("One");
+	txtChild1.setText("-----");
+	
+	
+}
+
+if(rdbtnStandard.isSelected() && rdbtnSingleTicket.isSelected() && rdbtnChild.isSelected() && BoxChoose.getSelectedItem().equals("New York")){
+	
+	totalCost = (tax * miles15)/70;
+	String tTax = String.format("$%.2f", totalCost);
+	txtTax.setText(tTax);
+	String subTotal = String.format("$%.2f", miles10);
+	txtSub.setText(subTotal);
+	String total = String.format("$%.2f", miles10 + totalCost);
+	txtTotal.setText(total);
+	txtPrice.setText(total);
+	txtClass1.setText("Bussines");
+	txtTicket1.setText("Onew way");
+	txtAdult1.setText("One");
+	txtChild1.setText("-----");
+	
+	
+}
+
+
+
+if(rdbtnStandard.isSelected() && rdbtnReturnTicket.isSelected() && rdbtnAdult.isSelected() && BoxChoose.getSelectedItem().equals("New York")){
+	
+	totalCost = (tax * miles15)/120;
+	String tTax = String.format("$%.2f", totalCost);
+	txtTax.setText(tTax);
+	String subTotal = String.format("$%.2f", miles10);
+	txtSub.setText(subTotal);
+	String total = String.format("$%.2f", miles10 + totalCost);
+	txtTotal.setText(total);
+	txtPrice.setText(total);
+	txtClass1.setText("Bussines");
+	txtTicket1.setText("Onew way");
+	txtAdult1.setText("One");
+	txtChild1.setText("-----");
+	
+	
+}
+
+
+if(rdbtnStandard.isSelected() && rdbtnReturnTicket.isSelected() && rdbtnChild.isSelected() && BoxChoose.getSelectedItem().equals("New York")){
+
+totalCost = (tax * miles15)/80;
+String tTax = String.format("$%.2f", totalCost);
+txtTax.setText(tTax);
+String subTotal = String.format("$%.2f", miles10);
+txtSub.setText(subTotal);
+String total = String.format("$%.2f", miles10 + totalCost);
+txtTotal.setText(total);
+txtPrice.setText(total);
+txtClass1.setText("Bussines");
+txtTicket1.setText("Onew way");
+txtAdult1.setText("One");
+txtChild1.setText("-----");
+
+}
+///////////////////////
+if(rdbtnStandard.isSelected() && rdbtnSingleTicket.isSelected() && rdbtnAdult.isSelected() && BoxChoose.getSelectedItem().equals("Washington")){
+
+totalCost = (tax * miles15)/100;
+String tTax = String.format("$%.2f", totalCost);
+txtTax.setText(tTax);
+String subTotal = String.format("$%.2f", miles10);
+txtSub.setText(subTotal);
+String total = String.format("$%.2f", miles10 + totalCost);
+txtTotal.setText(total);
+txtPrice.setText(total);
+txtClass1.setText("Bussines");
+txtTicket1.setText("Onew way");
+txtAdult1.setText("One");
+txtChild1.setText("-----");
+
+
+}
+
+if(rdbtnStandard.isSelected() && rdbtnSingleTicket.isSelected() && rdbtnChild.isSelected() && BoxChoose.getSelectedItem().equals("Washington")){
+
+totalCost = (tax * miles15)/70;
+String tTax = String.format("$%.2f", totalCost);
+txtTax.setText(tTax);
+String subTotal = String.format("$%.2f", miles10);
+txtSub.setText(subTotal);
+String total = String.format("$%.2f", miles10 + totalCost);
+txtTotal.setText(total);
+txtPrice.setText(total);
+txtClass1.setText("Bussines");
+txtTicket1.setText("Onew way");
+txtAdult1.setText("One");
+txtChild1.setText("-----");
+
+
+}
+
+
+
+if(rdbtnStandard.isSelected() && rdbtnReturnTicket.isSelected() && rdbtnAdult.isSelected() && BoxChoose.getSelectedItem().equals("Washington")){
+
+totalCost = (tax * miles15)/120;
+String tTax = String.format("$%.2f", totalCost);
+txtTax.setText(tTax);
+String subTotal = String.format("$%.2f", miles10);
+txtSub.setText(subTotal);
+String total = String.format("$%.2f", miles10 + totalCost);
+txtTotal.setText(total);
+txtPrice.setText(total);
+txtClass1.setText("Bussines");
+txtTicket1.setText("Onew way");
+txtAdult1.setText("One");
+txtChild1.setText("-----");
+
+
+}
+
+
+if(rdbtnStandard.isSelected() && rdbtnReturnTicket.isSelected() && rdbtnChild.isSelected() && BoxChoose.getSelectedItem().equals("Washington")){
+
+totalCost = (tax * miles15)/80;
+String tTax = String.format("$%.2f", totalCost);
+txtTax.setText(tTax);
+String subTotal = String.format("$%.2f", miles10);
+txtSub.setText(subTotal);
+String total = String.format("$%.2f", miles10 + totalCost);
+txtTotal.setText(total);
+txtPrice.setText(total);
+txtClass1.setText("Bussines");
+txtTicket1.setText("Onew way");
+txtAdult1.setText("One");
+txtChild1.setText("-----");
+
+}
+////
+if(rdbtnStandard.isSelected() && rdbtnSingleTicket.isSelected() && rdbtnAdult.isSelected() && BoxChoose.getSelectedItem().equals("Boston")){
+
+totalCost = (tax * miles15)/100;
+String tTax = String.format("$%.2f", totalCost);
+txtTax.setText(tTax);
+String subTotal = String.format("$%.2f", miles10);
+txtSub.setText(subTotal);
+String total = String.format("$%.2f", miles10 + totalCost);
+txtTotal.setText(total);
+txtPrice.setText(total);
+txtClass1.setText("Bussines");
+txtTicket1.setText("Onew way");
+txtAdult1.setText("One");
+txtChild1.setText("-----");
+
+
+}
+
+if(rdbtnStandard.isSelected() && rdbtnSingleTicket.isSelected() && rdbtnChild.isSelected() && BoxChoose.getSelectedItem().equals("Boston")){
+
+totalCost = (tax * miles15)/70;
+String tTax = String.format("$%.2f", totalCost);
+txtTax.setText(tTax);
+String subTotal = String.format("$%.2f", miles10);
+txtSub.setText(subTotal);
+String total = String.format("$%.2f", miles10 + totalCost);
+txtTotal.setText(total);
+txtPrice.setText(total);
+txtClass1.setText("Bussines");
+txtTicket1.setText("Onew way");
+txtAdult1.setText("One");
+txtChild1.setText("-----");
+
+
+}
+
+
+
+if(rdbtnStandard.isSelected() && rdbtnReturnTicket.isSelected() && rdbtnAdult.isSelected() && BoxChoose.getSelectedItem().equals("Boston")){
+
+totalCost = (tax * miles15)/120;
+String tTax = String.format("$%.2f", totalCost);
+txtTax.setText(tTax);
+String subTotal = String.format("$%.2f", miles10);
+txtSub.setText(subTotal);
+String total = String.format("$%.2f", miles10 + totalCost);
+txtTotal.setText(total);
+txtPrice.setText(total);
+txtClass1.setText("Bussines");
+txtTicket1.setText("Onew way");
+txtAdult1.setText("One");
+txtChild1.setText("-----");
+
+
+}
+
+
+if(rdbtnStandard.isSelected() && rdbtnReturnTicket.isSelected() && rdbtnChild.isSelected() && BoxChoose.getSelectedItem().equals("Boston")){
+
+totalCost = (tax * miles15)/80;
+String tTax = String.format("$%.2f", totalCost);
+txtTax.setText(tTax);
+String subTotal = String.format("$%.2f", miles10);
+txtSub.setText(subTotal);
+String total = String.format("$%.2f", miles10 + totalCost);
+txtTotal.setText(total);
+txtPrice.setText(total);
+txtClass1.setText("Bussines");
+txtTicket1.setText("Onew way");
+txtAdult1.setText("One");
+txtChild1.setText("-----");
+
+}
+///
+if(rdbtnStandard.isSelected() && rdbtnSingleTicket.isSelected() && rdbtnAdult.isSelected() && BoxChoose.getSelectedItem().equals("Miami")){
+
+totalCost = (tax * miles15)/100;
+String tTax = String.format("$%.2f", totalCost);
+txtTax.setText(tTax);
+String subTotal = String.format("$%.2f", miles10);
+txtSub.setText(subTotal);
+String total = String.format("$%.2f", miles10 + totalCost);
+txtTotal.setText(total);
+txtPrice.setText(total);
+txtClass1.setText("Bussines");
+txtTicket1.setText("Onew way");
+txtAdult1.setText("One");
+txtChild1.setText("-----");
+
+
+}
+
+if(rdbtnStandard.isSelected() && rdbtnSingleTicket.isSelected() && rdbtnChild.isSelected() && BoxChoose.getSelectedItem().equals("Miami")){
+
+totalCost = (tax * miles15)/70;
+String tTax = String.format("$%.2f", totalCost);
+txtTax.setText(tTax);
+String subTotal = String.format("$%.2f", miles10);
+txtSub.setText(subTotal);
+String total = String.format("$%.2f", miles10 + totalCost);
+txtTotal.setText(total);
+txtPrice.setText(total);
+txtClass1.setText("Bussines");
+txtTicket1.setText("Onew way");
+txtAdult1.setText("One");
+txtChild1.setText("-----");
+
+
+}
+
+
+
+if(rdbtnStandard.isSelected() && rdbtnReturnTicket.isSelected() && rdbtnAdult.isSelected() && BoxChoose.getSelectedItem().equals("Miami")){
+
+totalCost = (tax * miles15)/120;
+String tTax = String.format("$%.2f", totalCost);
+txtTax.setText(tTax);
+String subTotal = String.format("$%.2f", miles10);
+txtSub.setText(subTotal);
+String total = String.format("$%.2f", miles10 + totalCost);
+txtTotal.setText(total);
+txtPrice.setText(total);
+txtClass1.setText("Bussines");
+txtTicket1.setText("Onew way");
+txtAdult1.setText("One");
+txtChild1.setText("-----");
+
+
+}
+
+
+if(rdbtnStandard.isSelected() && rdbtnReturnTicket.isSelected() && rdbtnChild.isSelected() && BoxChoose.getSelectedItem().equals("Miami")){
+
+totalCost = (tax * miles15)/80;
+String tTax = String.format("$%.2f", totalCost);
+txtTax.setText(tTax);
+String subTotal = String.format("$%.2f", miles10);
+txtSub.setText(subTotal);
+String total = String.format("$%.2f", miles10 + totalCost);
+txtTotal.setText(total);
+txtPrice.setText(total);
+txtClass1.setText("Bussines");
+txtTicket1.setText("Onew way");
+txtAdult1.setText("One");
+txtChild1.setText("-----");
+
+}
+if(rdbtnStandard.isSelected() && rdbtnSingleTicket.isSelected() && rdbtnAdult.isSelected() && BoxChoose.getSelectedItem().equals("Miami")){
+
+totalCost = (tax * miles15)/100;
+String tTax = String.format("$%.2f", totalCost);
+txtTax.setText(tTax);
+String subTotal = String.format("$%.2f", miles10);
+txtSub.setText(subTotal);
+String total = String.format("$%.2f", miles10 + totalCost);
+txtTotal.setText(total);
+txtPrice.setText(total);
+txtClass1.setText("Bussines");
+txtTicket1.setText("Onew way");
+txtAdult1.setText("One");
+txtChild1.setText("-----");
+
+
+}
+
+if(rdbtnStandard.isSelected() && rdbtnSingleTicket.isSelected() && rdbtnChild.isSelected() && BoxChoose.getSelectedItem().equals("Miami")){
+
+totalCost = (tax * miles15)/70;
+String tTax = String.format("$%.2f", totalCost);
+txtTax.setText(tTax);
+String subTotal = String.format("$%.2f", miles10);
+txtSub.setText(subTotal);
+String total = String.format("$%.2f", miles10 + totalCost);
+txtTotal.setText(total);
+txtPrice.setText(total);
+txtClass1.setText("Bussines");
+txtTicket1.setText("Onew way");
+txtAdult1.setText("One");
+txtChild1.setText("-----");
+
+
+}
+
+
+
+if(rdbtnStandard.isSelected() && rdbtnReturnTicket.isSelected() && rdbtnAdult.isSelected() && BoxChoose.getSelectedItem().equals("Miami")){
+
+totalCost = (tax * miles15)/120;
+String tTax = String.format("$%.2f", totalCost);
+txtTax.setText(tTax);
+String subTotal = String.format("$%.2f", miles10);
+txtSub.setText(subTotal);
+String total = String.format("$%.2f", miles10 + totalCost);
+txtTotal.setText(total);
+txtPrice.setText(total);
+txtClass1.setText("Bussines");
+txtTicket1.setText("Onew way");
+txtAdult1.setText("One");
+txtChild1.setText("-----");
+
+
+}
+
+
+if(rdbtnStandard.isSelected() && rdbtnReturnTicket.isSelected() && rdbtnChild.isSelected() && BoxChoose.getSelectedItem().equals("Miami")){
+
+totalCost = (tax * miles15)/80;
+String tTax = String.format("$%.2f", totalCost);
+txtTax.setText(tTax);
+String subTotal = String.format("$%.2f", miles10);
+txtSub.setText(subTotal);
+String total = String.format("$%.2f", miles10 + totalCost);
+txtTotal.setText(total);
+txtPrice.setText(total);
+txtClass1.setText("Bussines");
+txtTicket1.setText("Onew way");
+txtAdult1.setText("One");
+txtChild1.setText("-----");
+
+}
+
+if(rdbtnEconom.isSelected() && rdbtnSingleTicket.isSelected() && rdbtnAdult.isSelected() && BoxChoose.getSelectedItem().equals("New York")){
+	
+	totalCost = (tax * miles15)/100;
+	String tTax = String.format("$%.2f", totalCost);
+	txtTax.setText(tTax);
+	String subTotal = String.format("$%.2f", miles10);
+	txtSub.setText(subTotal);
+	String total = String.format("$%.2f", miles10 + totalCost);
+	txtTotal.setText(total);
+	txtPrice.setText(total);
+	txtClass1.setText("Bussines");
+	txtTicket1.setText("Onew way");
+	txtAdult1.setText("One");
+	txtChild1.setText("-----");
+	
+	
+}
+
+if(rdbtnEconom.isSelected() && rdbtnSingleTicket.isSelected() && rdbtnChild.isSelected() && BoxChoose.getSelectedItem().equals("New York")){
+	
+	totalCost = (tax * miles15)/70;
+	String tTax = String.format("$%.2f", totalCost);
+	txtTax.setText(tTax);
+	String subTotal = String.format("$%.2f", miles10);
+	txtSub.setText(subTotal);
+	String total = String.format("$%.2f", miles10 + totalCost);
+	txtTotal.setText(total);
+	txtPrice.setText(total);
+	txtClass1.setText("Bussines");
+	txtTicket1.setText("Onew way");
+	txtAdult1.setText("One");
+	txtChild1.setText("-----");
+	
+	
+}
+
+
+
+if(rdbtnEconom.isSelected() && rdbtnReturnTicket.isSelected() && rdbtnAdult.isSelected() && BoxChoose.getSelectedItem().equals("New York")){
+	
+	totalCost = (tax * miles15)/120;
+	String tTax = String.format("$%.2f", totalCost);
+	txtTax.setText(tTax);
+	String subTotal = String.format("$%.2f", miles10);
+	txtSub.setText(subTotal);
+	String total = String.format("$%.2f", miles10 + totalCost);
+	txtTotal.setText(total);
+	txtPrice.setText(total);
+	txtClass1.setText("Bussines");
+	txtTicket1.setText("Onew way");
+	txtAdult1.setText("One");
+	txtChild1.setText("-----");
+	
+	
+}
+
+
+if(rdbtnEconom.isSelected() && rdbtnReturnTicket.isSelected() && rdbtnChild.isSelected() && BoxChoose.getSelectedItem().equals("New York")){
+
+totalCost = (tax * miles15)/80;
+String tTax = String.format("$%.2f", totalCost);
+txtTax.setText(tTax);
+String subTotal = String.format("$%.2f", miles10);
+txtSub.setText(subTotal);
+String total = String.format("$%.2f", miles10 + totalCost);
+txtTotal.setText(total);
+txtPrice.setText(total);
+txtClass1.setText("Bussines");
+txtTicket1.setText("Onew way");
+txtAdult1.setText("One");
+txtChild1.setText("-----");
+
+}
+///////////////////////
+if(rdbtnEconom.isSelected() && rdbtnSingleTicket.isSelected() && rdbtnAdult.isSelected() && BoxChoose.getSelectedItem().equals("Washington")){
+
+totalCost = (tax * miles15)/100;
+String tTax = String.format("$%.2f", totalCost);
+txtTax.setText(tTax);
+String subTotal = String.format("$%.2f", miles10);
+txtSub.setText(subTotal);
+String total = String.format("$%.2f", miles10 + totalCost);
+txtTotal.setText(total);
+txtPrice.setText(total);
+txtClass1.setText("Bussines");
+txtTicket1.setText("Onew way");
+txtAdult1.setText("One");
+txtChild1.setText("-----");
+
+
+}
+
+if(rdbtnEconom.isSelected() && rdbtnSingleTicket.isSelected() && rdbtnChild.isSelected() && BoxChoose.getSelectedItem().equals("Washington")){
+
+totalCost = (tax * miles15)/70;
+String tTax = String.format("$%.2f", totalCost);
+txtTax.setText(tTax);
+String subTotal = String.format("$%.2f", miles10);
+txtSub.setText(subTotal);
+String total = String.format("$%.2f", miles10 + totalCost);
+txtTotal.setText(total);
+txtPrice.setText(total);
+txtClass1.setText("Bussines");
+txtTicket1.setText("Onew way");
+txtAdult1.setText("One");
+txtChild1.setText("-----");
+
+
+}
+
+
+
+if(rdbtnEconom.isSelected() && rdbtnReturnTicket.isSelected() && rdbtnAdult.isSelected() && BoxChoose.getSelectedItem().equals("Washington")){
+
+totalCost = (tax * miles15)/120;
+String tTax = String.format("$%.2f", totalCost);
+txtTax.setText(tTax);
+String subTotal = String.format("$%.2f", miles10);
+txtSub.setText(subTotal);
+String total = String.format("$%.2f", miles10 + totalCost);
+txtTotal.setText(total);
+txtPrice.setText(total);
+txtClass1.setText("Bussines");
+txtTicket1.setText("Onew way");
+txtAdult1.setText("One");
+txtChild1.setText("-----");
+
+
+}
+
+
+if(rdbtnEconom.isSelected() && rdbtnReturnTicket.isSelected() && rdbtnChild.isSelected() && BoxChoose.getSelectedItem().equals("Washington")){
+
+totalCost = (tax * miles15)/80;
+String tTax = String.format("$%.2f", totalCost);
+txtTax.setText(tTax);
+String subTotal = String.format("$%.2f", miles10);
+txtSub.setText(subTotal);
+String total = String.format("$%.2f", miles10 + totalCost);
+txtTotal.setText(total);
+txtPrice.setText(total);
+txtClass1.setText("Bussines");
+txtTicket1.setText("Onew way");
+txtAdult1.setText("One");
+txtChild1.setText("-----");
+
+}
+////
+if(rdbtnEconom.isSelected() && rdbtnSingleTicket.isSelected() && rdbtnAdult.isSelected() && BoxChoose.getSelectedItem().equals("Boston")){
+
+totalCost = (tax * miles15)/100;
+String tTax = String.format("$%.2f", totalCost);
+txtTax.setText(tTax);
+String subTotal = String.format("$%.2f", miles10);
+txtSub.setText(subTotal);
+String total = String.format("$%.2f", miles10 + totalCost);
+txtTotal.setText(total);
+txtPrice.setText(total);
+txtClass1.setText("Bussines");
+txtTicket1.setText("Onew way");
+txtAdult1.setText("One");
+txtChild1.setText("-----");
+
+
+}
+
+if(rdbtnEconom.isSelected() && rdbtnSingleTicket.isSelected() && rdbtnChild.isSelected() && BoxChoose.getSelectedItem().equals("Boston")){
+
+totalCost = (tax * miles15)/70;
+String tTax = String.format("$%.2f", totalCost);
+txtTax.setText(tTax);
+String subTotal = String.format("$%.2f", miles10);
+txtSub.setText(subTotal);
+String total = String.format("$%.2f", miles10 + totalCost);
+txtTotal.setText(total);
+txtPrice.setText(total);
+txtClass1.setText("Bussines");
+txtTicket1.setText("Onew way");
+txtAdult1.setText("One");
+txtChild1.setText("-----");
+
+
+}
+
+
+
+if(rdbtnEconom.isSelected() && rdbtnReturnTicket.isSelected() && rdbtnAdult.isSelected() && BoxChoose.getSelectedItem().equals("Boston")){
+
+totalCost = (tax * miles15)/120;
+String tTax = String.format("$%.2f", totalCost);
+txtTax.setText(tTax);
+String subTotal = String.format("$%.2f", miles10);
+txtSub.setText(subTotal);
+String total = String.format("$%.2f", miles10 + totalCost);
+txtTotal.setText(total);
+txtPrice.setText(total);
+txtClass1.setText("Bussines");
+txtTicket1.setText("Onew way");
+txtAdult1.setText("One");
+txtChild1.setText("-----");
+
+
+}
+
+
+if(rdbtnEconom.isSelected() && rdbtnReturnTicket.isSelected() && rdbtnChild.isSelected() && BoxChoose.getSelectedItem().equals("Boston")){
+
+totalCost = (tax * miles15)/80;
+String tTax = String.format("$%.2f", totalCost);
+txtTax.setText(tTax);
+String subTotal = String.format("$%.2f", miles10);
+txtSub.setText(subTotal);
+String total = String.format("$%.2f", miles10 + totalCost);
+txtTotal.setText(total);
+txtPrice.setText(total);
+txtClass1.setText("Bussines");
+txtTicket1.setText("Onew way");
+txtAdult1.setText("One");
+txtChild1.setText("-----");
+
+}
+///
+if(rdbtnEconom.isSelected() && rdbtnSingleTicket.isSelected() && rdbtnAdult.isSelected() && BoxChoose.getSelectedItem().equals("Miami")){
+
+totalCost = (tax * miles15)/100;
+String tTax = String.format("$%.2f", totalCost);
+txtTax.setText(tTax);
+String subTotal = String.format("$%.2f", miles10);
+txtSub.setText(subTotal);
+String total = String.format("$%.2f", miles10 + totalCost);
+txtTotal.setText(total);
+txtPrice.setText(total);
+txtClass1.setText("Bussines");
+txtTicket1.setText("Onew way");
+txtAdult1.setText("One");
+txtChild1.setText("-----");
+
+
+}
+
+if(rdbtnEconom.isSelected() && rdbtnSingleTicket.isSelected() && rdbtnChild.isSelected() && BoxChoose.getSelectedItem().equals("Miami")){
+
+totalCost = (tax * miles15)/70;
+String tTax = String.format("$%.2f", totalCost);
+txtTax.setText(tTax);
+String subTotal = String.format("$%.2f", miles10);
+txtSub.setText(subTotal);
+String total = String.format("$%.2f", miles10 + totalCost);
+txtTotal.setText(total);
+txtPrice.setText(total);
+txtClass1.setText("Bussines");
+txtTicket1.setText("Onew way");
+txtAdult1.setText("One");
+txtChild1.setText("-----");
+
+
+}
+
+
+
+if(rdbtnEconom.isSelected() && rdbtnReturnTicket.isSelected() && rdbtnAdult.isSelected() && BoxChoose.getSelectedItem().equals("Miami")){
+
+totalCost = (tax * miles15)/120;
+String tTax = String.format("$%.2f", totalCost);
+txtTax.setText(tTax);
+String subTotal = String.format("$%.2f", miles10);
+txtSub.setText(subTotal);
+String total = String.format("$%.2f", miles10 + totalCost);
+txtTotal.setText(total);
+txtPrice.setText(total);
+txtClass1.setText("Bussines");
+txtTicket1.setText("Onew way");
+txtAdult1.setText("One");
+txtChild1.setText("-----");
+
+
+}
+
+
+if(rdbtnEconom.isSelected() && rdbtnReturnTicket.isSelected() && rdbtnChild.isSelected() && BoxChoose.getSelectedItem().equals("Miami")){
+
+totalCost = (tax * miles15)/80;
+String tTax = String.format("$%.2f", totalCost);
+txtTax.setText(tTax);
+String subTotal = String.format("$%.2f", miles10);
+txtSub.setText(subTotal);
+String total = String.format("$%.2f", miles10 + totalCost);
+txtTotal.setText(total);
+txtPrice.setText(total);
+txtClass1.setText("Bussines");
+txtTicket1.setText("Onew way");
+txtAdult1.setText("One");
+txtChild1.setText("-----");
+
+}
+if(rdbtnEconom.isSelected() && rdbtnSingleTicket.isSelected() && rdbtnAdult.isSelected() && BoxChoose.getSelectedItem().equals("Miami")){
+
+totalCost = (tax * miles15)/100;
+String tTax = String.format("$%.2f", totalCost);
+txtTax.setText(tTax);
+String subTotal = String.format("$%.2f", miles10);
+txtSub.setText(subTotal);
+String total = String.format("$%.2f", miles10 + totalCost);
+txtTotal.setText(total);
+txtPrice.setText(total);
+txtClass1.setText("Bussines");
+txtTicket1.setText("Onew way");
+txtAdult1.setText("One");
+txtChild1.setText("-----");
+
+
+}
+
+if(rdbtnEconom.isSelected() && rdbtnSingleTicket.isSelected() && rdbtnChild.isSelected() && BoxChoose.getSelectedItem().equals("Miami")){
+
+totalCost = (tax * miles15)/70;
+String tTax = String.format("$%.2f", totalCost);
+txtTax.setText(tTax);
+String subTotal = String.format("$%.2f", miles10);
+txtSub.setText(subTotal);
+String total = String.format("$%.2f", miles10 + totalCost);
+txtTotal.setText(total);
+txtPrice.setText(total);
+txtClass1.setText("Bussines");
+txtTicket1.setText("Onew way");
+txtAdult1.setText("One");
+txtChild1.setText("-----");
+
+
+}
+
+
+
+if(rdbtnEconom.isSelected() && rdbtnReturnTicket.isSelected() && rdbtnAdult.isSelected() && BoxChoose.getSelectedItem().equals("Miami")){
+
+totalCost = (tax * miles15)/120;
+String tTax = String.format("$%.2f", totalCost);
+txtTax.setText(tTax);
+String subTotal = String.format("$%.2f", miles10);
+txtSub.setText(subTotal);
+String total = String.format("$%.2f", miles10 + totalCost);
+txtTotal.setText(total);
+txtPrice.setText(total);
+txtClass1.setText("Bussines");
+txtTicket1.setText("Onew way");
+txtAdult1.setText("One");
+txtChild1.setText("-----");
+
+
+}
+
+
+if(rdbtnEconom.isSelected() && rdbtnReturnTicket.isSelected() && rdbtnChild.isSelected() && BoxChoose.getSelectedItem().equals("Miami")){
+
+totalCost = (tax * miles15)/80;
+String tTax = String.format("$%.2f", totalCost);
+txtTax.setText(tTax);
+String subTotal = String.format("$%.2f", miles10);
+txtSub.setText(subTotal);
+String total = String.format("$%.2f", miles10 + totalCost);
+txtTotal.setText(total);
+txtPrice.setText(total);
+txtClass1.setText("Bussines");
+txtTicket1.setText("Onew way");
+txtAdult1.setText("One");
+txtChild1.setText("-----");
+
+}
+
 			
 			}
 		});
@@ -215,7 +1305,7 @@ public class TicketSystem {
 			txtRoute.setText("Any");			
 			}
 		});
-		btnTotal.setBounds(10, 446, 89, 23);
+		btnTotal.setBounds(10, 428, 89, 23);
 		frame.getContentPane().add(btnTotal);
 		
 		JButton btnReset = new JButton("Reset");
@@ -247,7 +1337,7 @@ public class TicketSystem {
 			
 			}
 		});
-		btnReset.setBounds(117, 446, 89, 23);
+		btnReset.setBounds(117, 428, 89, 23);
 		frame.getContentPane().add(btnReset);
 		
 		JButton btnExit = new JButton("Exit");
@@ -259,7 +1349,7 @@ public class TicketSystem {
 			}
 			}
 		});
-		btnExit.setBounds(216, 446, 89, 23);
+		btnExit.setBounds(216, 428, 89, 23);
 		frame.getContentPane().add(btnExit);
 		
 		JLabel lblClass = new JLabel("Class");
@@ -374,5 +1464,10 @@ public class TicketSystem {
 		txtRoute.setColumns(10);
 		txtRoute.setBounds(540, 325, 86, 20);
 		frame.getContentPane().add(txtRoute);
+		
+		JLabel lblNewLabel_7 = new JLabel("");
+		lblNewLabel_7.setIcon(new ImageIcon("C:\\Users\\andriy\\Desktop\\JpgS.jpg"));
+		lblNewLabel_7.setBounds(10, 35, 665, 416);
+		frame.getContentPane().add(lblNewLabel_7);
 	}
 }
